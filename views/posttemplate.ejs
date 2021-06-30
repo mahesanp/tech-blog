@@ -1,0 +1,26 @@
+<%- include("partials/header") -%>
+
+    <header class="masthead" style="background-image:url('/assets/img/austin-poon-JO_S6ewBqAk-unsplash.jpg');">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto position-relative">
+                    <div class="post-heading">
+                        <h1><%=post.title%></h1>
+                        <h2 class="subheading"><%=post.post%></h2><span class="meta">Posted by&nbsp;<a href="#">Mahesan</a>&nbsp;on <%=post.date%></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto">
+                    <p><%=post.detail%></p>
+                    <p><%=post.detail2%></p>
+                </div>
+            </div>
+        </div>
+    </article>
+<%- include("partials/footer") -%>

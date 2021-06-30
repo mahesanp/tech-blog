@@ -1,0 +1,21 @@
+<%- include("partials/header") -%>
+
+<div style="margin-top:40px" class="container">
+    <div class="row">
+        <div class="col-md-10 col-lg-8">
+            <% content.forEach(function(post){ %>
+                <div class="post-preview">
+                    <a href="/posts/<%= post.title %>">
+                        <h2 class="post-title"><%= post.title %></h2>
+                        <h3 class="post-subtitle"><%= post.post %></h3>
+                    </a>
+                    <p class="post-meta">Posted by&nbsp;<a href="#">Mahesan on <%= post.date %></a></p>
+                </div>
+                <hr>
+            <% }); %>
+        </div>
+    </div>
+</div>
+
+
+<%- include("partials/footer") -%>

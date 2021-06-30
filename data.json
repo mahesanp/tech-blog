@@ -1,12 +1,51 @@
 [
   {
-    "title": "Github Student Developer Pack",
-    "post": "This is awesome! You guys should know about this",
-    "detail": "a"
+    "title": "Time to beat TechCrunch",
+    "post": "Jayarani College, Nethimedu",
+    "detail": "<h1>Hiiii</h1>",
+    "detail2": "",
+    "date": "July 01, 2021"
   },
   {
     "title": "SpaceX",
-    "post": "WHoaaaaa",
-    "detail": "Whaooosadnf"
+    "post": "Elon Musk is on fire",
+    "detail": "Elon Musk, the 40 year prodigy is making drastic changes in SpaceX",
+    "detail2": "",
+    "date": "June 30, 2021"
+  },
+  {
+    "title": "Github Student Developer Pack",
+    "post": "This is awesome! You guys should know about this",
+    "detail": "Github has this thing called Student Developer Pack which has a whopping 50 tech benefits. To claim the benefits you have to be a student.",
+    "detail2": "The benefits are the core foundation for Development of Softwares.",
+    "date": "June 29, 2021"
+  },
+  {
+    "title": "GeeksForGeeks Internship",
+    "post": "What a scam",
+    "detail": "I have selected for GeeksforGeeks Internship at Hello",
+    "detail2": "Hello asd",
+    "date": "June 29, 2021"
+  },
+  {
+    "title": "xfgh",
+    "post": "dh",
+    "detail": "sdry",
+    "detail2": "sfdhg",
+    "date": "June 30, 2021"
+  },
+  {
+    "title": "sdfg",
+    "post": "sdf",
+    "detail": "fdshbsdf",
+    "detail2": "adfsgsf",
+    "date": "June 30, 2021"
+  },
+  {
+    "title": "cghxfxh",
+    "post": "xgxgfj",
+    "detail": "xfgjxfg",
+    "detail2": "zdhdzh",
+    "date": "June 30, 2021"
   }
 ]
