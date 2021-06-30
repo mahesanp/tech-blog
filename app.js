@@ -28,7 +28,9 @@ app.get("/contact", function(req, res){
 });
 
 app.get("/post", function(req, res){
-    res.render("post");
+    let posts = readData();
+    console.log(posts[0].title)
+    res.redirect("/posts/" + posts[0].title);
 });
 
 app.get("/posts/:postTitle", function(req, res){
@@ -131,6 +133,6 @@ function getDate(post){
     return clean_day;
 }
 
-app.listen(3000, '0.0.0.0', function(){
+app.listen(process.env.PORT || 3000, '0.0.0.0', function(){
     console.log("server listening on port 3000");
 })
