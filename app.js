@@ -70,7 +70,7 @@ app.post("/update", function(req, res){
 });
 
 app.post("/contact", function(req, res){
-    const output = `<p>You have a new contact request</p>
+    const output = `<h2>You have a new contact request</h2>
     <h3>Contact Details</h3>
     <ul>
       <li>Name: ${req.body.Name}</li>
