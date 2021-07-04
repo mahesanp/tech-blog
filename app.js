@@ -118,6 +118,6 @@ function getDate(post){
     return clean_day;
 }
 
-app.listen(process.env.PORT || 3000, '0.0.0.0', function(){
-    console.log("server listening on port 3000");
+app.listen(process.env.PORT || 80, '0.0.0.0', function(){
+    console.log("server listening on port 80");
 })
