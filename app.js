@@ -41,13 +41,21 @@ app.get("/posts/:postTitle", function(req, res){
         if(request == stored){
             res.render("posttemplate", {post: data[i]});
         }
-
     }
 })
 
 
 app.get("/update", function(req, res){
-    res.render("update");
+    res.render("login");
+});
+
+app.post("/login", function(req,res){
+    console.log(req.body.password);
+    if(req.body.password == "qwerty"){
+        res.render("update");
+    } else{
+        res.render("wrongpassword");
+    }
 });
 
 app.get("/older-posts", function(req, res){
@@ -62,6 +70,7 @@ app.post("/update", function(req, res){
         post: req.body.postContent,
         detail: req.body.detailedContent,
         detail2: req.body.detailedContent2,
+        detail3: req.body.detailedContent3,
         date: getDate(),
     }
     posts.unshift(post);

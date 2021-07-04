@@ -1,51 +1,18 @@
 [
   {
-    "title": "Time to beat TechCrunch",
-    "post": "Jayarani College, Nethimedu",
-    "detail": "<h1>Hiiii</h1>",
-    "detail2": "",
-    "date": "July 01, 2021"
-  },
-  {
-    "title": "SpaceX",
-    "post": "Elon Musk is on fire",
-    "detail": "Elon Musk, the 40 year prodigy is making drastic changes in SpaceX",
-    "detail2": "",
-    "date": "June 30, 2021"
+    "title": "How I Created this Website",
+    "post": "Totally Free",
+    "detail": "As I have said in the last blog post, I claimed the GitHub pack and used the services to create this website. <br><br>\r\n<strong>I hate Front-End (HTML and CSS).</strong> I believe that Data Structures is far easier than CSS. Bootstrap was the life-saver for the tasteless back-end developers like me. But, looks like there is something called Bootstrap Studio which makes it even easier. Basically cherry on top. GitHub offered me the license for BStudio. So, the front-end for this website was done within a week using BStudio. <br><be><hr>\r\n<strong>For Back-End,</strong> I used Nodejs and EJS. Since I don't have the skills to maintain a database in Back-End, I'm using JSON to store the blog data. And Back-End was done within another week. <hr>\r\n\r\n",
+    "detail2": "<strong>The next step is to deploy the app in the cloud.</strong> I usually use Heroku to test my apps since they have a lot of automation. I thought of having a custom domain for this site. While I tried to add a custom domain to my app, they asked me for my credit card for verification. And for some reason, they didn't accept a single card in my home. This was a nightmare to me. When I contacted my financial institution, they said that Heroku doesn't have the functionality to accept OTP. So, I switched to DigitalOcean which was the only other choice. And it was really good than I thought. <br><br>\r\nThe first thing is that the deployment is done manually by the user. I learned a lot about SSH, Git, and Linux Administration. It took a while to grasp the concepts, but I managed to deploy my code. <hr>",
+    "detail3": "<strong>Now comes the domain name.</strong> Since I can claim a .tech TLD for free, I hoped to get one. But it was another thing which made me furious. They didn't list out the proper procedure to claim a domain name. I sent two emails to them, but they didn't reply. But I managed to figure it out. And after I had everything ready, I really had no idea what to post, and thus this post.",
+    "date": "July 04, 2021"
   },
   {
     "title": "Github Student Developer Pack",
-    "post": "This is awesome! You guys should know about this",
-    "detail": "Github has this thing called Student Developer Pack which has a whopping 50 tech benefits. To claim the benefits you have to be a student.",
-    "detail2": "The benefits are the core foundation for Development of Softwares.",
-    "date": "June 29, 2021"
-  },
-  {
-    "title": "GeeksForGeeks Internship",
-    "post": "What a scam",
-    "detail": "I have selected for GeeksforGeeks Internship at Hello",
-    "detail2": "Hello asd",
-    "date": "June 29, 2021"
-  },
-  {
-    "title": "xfgh",
-    "post": "dh",
-    "detail": "sdry",
-    "detail2": "sfdhg",
-    "date": "June 30, 2021"
-  },
-  {
-    "title": "sdfg",
-    "post": "sdf",
-    "detail": "fdshbsdf",
-    "detail2": "adfsgsf",
-    "date": "June 30, 2021"
-  },
-  {
-    "title": "cghxfxh",
-    "post": "xgxgfj",
-    "detail": "xfgjxfg",
-    "detail2": "zdhdzh",
-    "date": "June 30, 2021"
+    "post": "This is awesome! You guys should know about this!",
+    "detail": "<strong>So, if you are a student and want to create amazing software for free, head on to <a href=\"https://education.github.com/pack\">https://education.github.com/pack</a>.</strong> <br><br>\r\nWith your institution mail id, you can claim whopping benefits from various services.<br>Some of them are: <br>\r\n* 3 domain names (.me, .tech, .codes, .games TLD)<br>\r\n* Half a dozen of premium cloud services (Heroku, DigitalOcean, Microsoft Azure, etc) <br>\r\n* Professional IDE's <br>\r\n* Paid Online Coursed for free<br>",
+    "detail2": "<strong>Sounds exciting right! It is</strong>. If you guys know any student pack <a href=\"/contact\">ping me</a>.",
+    "detail3": "",
+    "date": "July 04, 2021"
   }
 ]
