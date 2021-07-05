@@ -1,5 +1,13 @@
 [
   {
+    "title": "Are college assignments a waste of time",
+    "post": ":|",
+    "detail": "<strong>I know that I don't have the intellectual ability to judge this. I'm just here to state my opinion.</strong>\r\n<hr>\r\nIf the assignment is to make paragraphs about a topic, then it is a mere waste of time. While some colleges kindle the fire in students, most of the colleges kill the dream in youngsters by giving them a ton of work, and not letting them learn by themselves. And also the usefulness of assignments depends on another factor called student's interest. So, it can neither be concluded useful nor useless. <br><br>\r\nIn my opinion, Indian colleges should give students some space to figure out themselves. And they shouldn't give them work from morning to night, which isn't useful at all for their future.",
+    "detail2": "",
+    "detail3": "",
+    "date": "July 05, 2021"
+  },
+  {
     "title": "How I Created this Website",
     "post": "Totally Free",
     "detail": "As I have said in the last blog post, I claimed the GitHub pack and used the services to create this website. <br><br>\r\n<strong>I hate Front-End (HTML and CSS).</strong> I believe that Data Structures is far easier than CSS. Bootstrap was the life-saver for the tasteless back-end developers like me. But, looks like there is something called Bootstrap Studio which makes it even easier. Basically cherry on top. GitHub offered me the license for BStudio. So, the front-end for this website was done within a week using BStudio. <br><be><hr>\r\n<strong>For Back-End,</strong> I used Nodejs and EJS. Since I don't have the skills to maintain a database in Back-End, I'm using JSON to store the blog data. And Back-End was done within another week. <hr>\r\n\r\n",
