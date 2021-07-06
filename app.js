@@ -12,6 +12,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 app.get("/", function(req, res){
+    console.log(req.ip);
     let posts = readData();
     let day = getDate();
 
