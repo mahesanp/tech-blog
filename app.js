@@ -13,6 +13,7 @@ app.use(express.static("public"));
 
 app.get("/", function(req, res){
     console.log(req.ip);
+    console.log(getApi());
     let posts = readData();
     let day = getDate();
 
@@ -91,7 +92,7 @@ app.post("/contact", function(req, res){
     <p>${req.body.message}</p>
     `;
 
-    var api_key = 'key-2527964d5bd214baff41815e360bcd88';
+    var api_key = getApi();
     var domain = 'sandboxf2473e62392e47bdae2c6fd2fd5e8840.mailgun.org';
     var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
 
@@ -128,6 +129,10 @@ function getDate(post){
     return clean_day;
 }
 
+function getApi(){
+  let api = fs.readFileSync("../api.txt");
+  return api.toString().slice(0, -1);
+}
 app.listen(process.env.PORT || 3000, '0.0.0.0', function(){
     console.log("server listening on port 3000");
 })
