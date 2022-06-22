@@ -97,7 +97,7 @@ app.post("/contact", function(req, res){
     var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
 
     var data = {
-      from: 'Mahesan <mahesan.cs20@bitsathy.ac.in>',
+      from: 'mahesanp789@gmail.com',
       to: 'mahesan.cs20@bitsathy.ac.in',
       subject: 'New Contact Details',
       html: output,
