@@ -12,8 +12,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 app.get("/", function(req, res){
-    console.log(req.ip);
-    console.log(getApi());
+    console.log("The request IP is " + req.ip);
+    // console.log(getApi());
     let posts = readData();
     let day = getDate();
 
