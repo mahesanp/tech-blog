@@ -1,0 +1,36 @@
+<%- include("partials/header") -%>
+    <header class="masthead" style="background-image: url('assets/img/andrew-neel-cckf4TsHAuw-unsplash.jpg');">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto position-relative">
+                    <div class="site-heading">
+                        <h1>Delete Posts</h1><span class="subheading"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-lg-8">
+                <% content.forEach(function(post){ %>
+                    <div class="post-preview">
+                        <a href="/posts/<%= post.title %>">
+                            <h2 class="post-title"><%= post.title %></h2>
+
+                            <h3 class="post-subtitle"><%= post.post %></h3>
+                        </a>
+                        <p class="post-meta">Posted by&nbsp;<a href="#">Mahesan on <%= post.date %></a></p>
+                        <form class="" action="/delete" method="post">
+                          <button name="id" value="<%=post.title%>" type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+
+                    </div>
+                    <hr>
+                <% }); %>
+                <div class="clearfix"><a href="/older-posts"><button class="btn btn-primary float-end" type="button">Older Posts&nbsp;⇒</button></a></div>
+            </div>
+        </div>
+    </div>
+<%- include("partials/footer") -%>
