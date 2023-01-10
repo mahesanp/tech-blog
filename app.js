@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 mongoose.set('strictQuery', true);
-mongoose.connect("mongodb://localhost:27017/blogDB", {useNewUrlParser:true});
+mongoose.connect("mongodb+srv://admin-mahesan:Wanderlust123@blogcluster.ltlub2r.mongodb.net/blogDB", {useNewUrlParser:true});
 
 const postSchema = new mongoose.Schema({
   title: String,
