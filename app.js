@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
@@ -10,9 +11,8 @@ app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
-
 mongoose.set('strictQuery', true);
-mongoose.connect("mongodb+srv://admin-mahesan:Wanderlust123@blogcluster.ltlub2r.mongodb.net/blogDB", {useNewUrlParser:true});
+mongoose.connect(process.env.MONGO_URI, {useNewUrlParser:true});
 
 const postSchema = new mongoose.Schema({
   title: String,
